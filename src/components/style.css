@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital@0;1&display=swap");
+.home {
+  height: auto;
+  width: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  /* gap: 5px; */
+  background-color: cadetblue;
+  border-radius: 10px;
+  box-shadow: 1px 1px 24px 3px lightslategray;
+  position: relative;
+}
+.home .logout {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+.home .profile {
+  height: 80px;
+  width: 80px;
+  border: 2px solid red;
+  border-radius: 50%;
+  background-color: cornsilk;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* position: relative; */
+  box-sizing: border-box;
+  padding: 5px;
+}
+.home .reset {
+  display: flex;
+  justify-content: space-around;
+}
+.home .reset button {
+  /* display: block; */
+  margin: 19px;
+}
+.home .name {
+  text-transform: capitalize;
+  color: black;
+  font-weight: bold;
+  /* font-size: ; */
+}
+.home .userid {
+  /* text-transform: capitalize; */
+  color: black;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.home .profile .add {
+  position: relative;
+  font-size: 10px;
+  margin-top: 2px;
+}
+.home .profile button {
+  font-size: 8px;
+}
+
+.login {
+  height: auto;
+  width: 300px;
+  background-color: rgb(32 19 18);
+  display: flex;
+  color: white;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 1.5em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 24px 3px lightslategray;
+}
+.login input {
+  width: 100%;
+  font-family: roboto;
+  font-size: 1rem;
+  padding: 5px;
+  outline: 2px solid gray;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 1px 1px 5px 1px rgb(10, 7, 7);
+}
+.login input:hover {
+  transform: scale(1.025);
+}
+.login button:hover {
+  transform: scale(1.025);
+}
+.login h1 {
+  font-size: 3rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
