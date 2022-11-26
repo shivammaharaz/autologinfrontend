@@ -9,7 +9,7 @@ import { Data } from './context'
 import axios from 'axios';
 
 function App() {
-  const { user, setUser, isLoggedin, setIsLoggedin } = useContext(Data)
+  const { user, setUser, isLoggedin } = useContext(Data)
   console.info(isLoggedin)
 
 
